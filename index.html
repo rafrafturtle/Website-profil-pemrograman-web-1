@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil Kami</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
 
-  <header>
-    <h1>Rafly Shogie dan Ridho</h1>
+  <header class="container">
+    <h1>Rafly Shogie & Ridho</h1>
     <p>Mahasiswa Pendidikan Komputer</p>
   </header>
 
-  <nav>
+  <nav class="container nav-menu">
     <a href="#tentang">Tentang</a>
     <a href="#skill">Skill</a>
     <a href="#proyek">Proyek</a>
@@ -21,48 +21,53 @@
     <a href="#kontak">Kontak</a>
   </nav>
 
-  <section id="tentang">
-    <h2>Tentang Kami</h2>
-    <p>
-      Halo! Kami adalah Rafly, Shogie, dan Ridho, mahasiswa Pendidikan Komputer
-      yang bersemangat di dunia teknologi. Kami sedang belajar membuat website
-      dan bercita-cita menjadi web developer profesional.
-    </p>
-  </section>
+  <main class="container">
 
-  <section id="skill">
-    <h2>Skill</h2>
-    <ul>
-      <li>HTML Dasar</li>
-      <li>CSS Dasar</li>
-      <li>Belajar JavaScript</li>
-      <li>Microsoft Office (Word, Excel, PowerPoint)</li>
-    </ul>
-  </section>
+    <section id="tentang" class="content-section">
+      <h2>Tentang Kami</h2>
+      <p>
+        Halo! Kami adalah Rafly, Shogie, dan Ridho, mahasiswa Pendidikan Komputer yang bersemangat di dunia teknologi.
+        Kami sedang belajar membuat website dan bercita-cita menjadi web developer profesional.
+      </p>
+    </section>
 
-  <section id="proyek">
-    <h2>Proyek Kami</h2>
-    <ul>
-      <li>Website Daftar Buku</li>
-      <li>Aplikasi Pemesanan Online</li>
-      <li>To-Do List Sederhana</li>
-    </ul>
-  </section>
+    <section id="skill" class="content-section">
+      <h2>Skill</h2>
+      <div class="grid">
+        <div class="card">HTML Dasar</div>
+        <div class="card">CSS Dasar</div>
+        <div class="card">Belajar JavaScript</div>
+        <div class="card">Microsoft Office</div>
+        <div class="card">Git & GitHub</div>
+        <div class="card">PowerPoint</div>
+      </div>
+    </section>
 
-  <section id="hobi">
-    <h2>Hobi</h2>
-    <p>
-      Kami memiliki berbagai hobi, seperti membaca, menulis, bermain game, dan mendengarkan musik.
-    </p>
-  </section>
+    <section id="proyek" class="content-section">
+      <h2>Proyek Kami</h2>
+      <div class="grid">
+        <div class="card">Website Daftar Buku</div>
+        <div class="card">Aplikasi Pemesanan Online</div>
+        <div class="card">To-Do List Sederhana</div>
+      </div>
+    </section>
 
-  <section id="kontak">
-    <h2>Kontak</h2>
-    <p>Email: rafshogrid@email.com</p>
-  </section>
+    <section id="hobi" class="content-section">
+      <h2>Hobi</h2>
+      <p>
+        Kami memiliki berbagai hobi seperti membaca, menulis, bermain game, dan mendengarkan musik.
+      </p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Rafly Shogie dan Ridho</p>
+    <section id="kontak" class="content-section">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:rafshogrid@email.com">rafshogrid@email.com</a></p>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2025 Rafly Shogie & Ridho</p>
   </footer>
 
 </body>
